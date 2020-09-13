@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media (max-width: 600px){
+
+  /* 共通 */
+  .content-title{
+    margin-bottom: 60px;
+  }
+  .centering-text{
+    padding: 0 20px;
+  }
+
+  /* HEADER */
+  header .title{
+    font-size: 2rem;
+    margin-right: 0;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .main-nav{
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .margin-nav li{
+  margin: 0 20px;
+}
+  .home-content{
+    margin-top: 20%;
+  }
+  .page-header{
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  /* HOOTER */
+  .page-footer{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  /* HOME */
+  .top{
+    align-items: center;
+    flex-direction: column;
+
+  }
+  h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  /* HOME BLOG */
+  .content-wrap,
+  .content-wrap:nth-child(odd){
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* ABOUT */
+  .about-coment{
+    text-align: center;
+  }
+  .about-flex{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* CONTACT */
+  input[type="text"],
+  input[typw="email"],
+  textarea{
+    max-width: 90%;
+  }
+
+}
